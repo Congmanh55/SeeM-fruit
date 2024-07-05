@@ -1,0 +1,376 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #669933;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    color: white;
+}
+
+.header_left {
+    display: flex;
+}
+
+.header_left_div {
+    border-right: 1px solid white;
+    margin: 0 10px;
+}
+
+.header_right {
+    display: flex;
+    gap: 20px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav_logo {
+    display: flex;
+    align-items: center;
+}
+
+.img_logo {
+    width: 150px !important;
+}
+
+.nav_search {}
+
+input[type="text"] {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin: 0;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+button[type="submit"] {
+    height: 42px;
+    border: none;
+    padding: 10px;
+    background: #669933;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin: 0;
+}
+
+.nav_menu {
+    display: flex;
+    gap: 30px;
+}
+
+.img_banner {
+    width: 100%;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.menu {
+    position: relative;
+    width: 80%;
+}
+
+.list_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_menu_item {
+    border-radius: 10px;
+    width: 30%;
+    height: 200px;
+    color: #fff;
+    border: 2px solid #669933;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.item_img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+h2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.list_menu_item:hover .item_img {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.container_fruits {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imported_fruits {
+    width: 80%;
+    display: inline;
+    text-align: center;
+}
+
+.imported_fruits_title h1 {
+    display: flex;
+    align-items: center;
+}
+
+.imported_fruits_title h1 b {
+    flex: 1;
+    height: 1px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+b {
+    opacity: 0.1;
+}
+
+.imported_fruits_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fruit_item {
+    position: relative;
+    width: 22%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #669933;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    transition: opacity 0.3s ease;
+    background-color: #fff;
+}
+
+.sale {
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    width: 50px;
+    height: 50px;
+    background: #F751A7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+.fruit_item:hover {
+    box-shadow: 0px 0px 10px 0px #ddd;
+    opacity: 0.7;
+}
+
+.fruit_item_img {
+    width: 100%;
+}
+
+.item_btn {
+    background: #669933;
+    padding: 10px 20px;
+    border: 1px solid #669933;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.fruit_button {
+    margin: 20px 0;
+}
+
+.fruit_btn {
+    background: #fff;
+    padding: 10px 20px;
+    border: 1px solid #669933;
+    color: #669933;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.fruit_btn:hover {
+    color: #fff;
+    background: #669933;
+}
+
+.domestic_fruits {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.juices_fruits {
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("./asset//bannerhq.png");
+}
+
+.news {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background: #EEEEEE;
+    padding-bottom: 30px;
+}
+
+.fruit_news {
+    width: 80%;
+    display: flex;
+}
+
+.fruit_news_left h1 {
+    display: flex;
+    align-items: center;
+}
+
+.fruit_news_left h1 b {
+    flex: 1;
+    height: 1px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+b {
+    opacity: 0.1;
+}
+
+.fruit_news_left {
+    width: 80%;
+    margin-right: 20px;
+}
+
+.fruit_news_left_info {
+    display: flex;
+    background-color: #fff;
+    margin: 10px 0;
+}
+.fruit_news_left_text{
+    padding: 10px;
+}
+.fruit_news_line {
+    border-bottom: 1px solid #ccc ;
+    width: 50px;
+}
+.fruit_news_left_img {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.fruit_news_right {
+    display: flex;
+}
+
+.fruit_news_right_form {
+    padding: 30px;
+    display: inline;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 350px;
+    width: auto;
+    box-shadow: 0px 0px 20px 2px #669933;
+}
+
+.fruit_news_right_form_input {
+    width: 86%;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #669933 !important;
+    border-radius: 5px;
+    margin: 10px !important;
+    background: #f5f5d9;
+}
+.fruit_news_right_form_input:focus {
+    outline: none;
+}
+.fruit_news_right_div {
+    border: 1px solid #669933;
+    padding: 10px;
+    margin: 10px;
+    min-height: 50px;
+    overflow-y: auto;
+    text-align: left;
+    background: #f5f5d9;
+    border-radius: 5px;
+}
+.fruit_news_right_btn {
+    width: 95%;
+    margin-top: 10px;
+    background: #669933;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-image: url("./asset/banner-footer.jpg");
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.footer_logo,
+.footer_contact,
+.footer_news,
+.footer_about {
+    width: 23%;
+}
+
+.footer_logo_img {
+    width: 200px;
+}
